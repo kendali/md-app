@@ -1,0 +1,11 @@
+.services {
+    background: url('https://ucarecdn.com/6a92d404-bf7f-478d-87fc-35f65d5e6c74/blobscenehaikei5.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) { 
+    .services{
+        background: none;
+    }
+ }

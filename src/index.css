@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Sukar;
+  src: local("Font/Sukar Regular.ttf");
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 600vh;
+}
+/* VARIABLES */
+:root {
+  --main-color: #3663de;
+  --second-color: #253439;
+}
+
+.text-main {
+  color: var(--main-color);
+}
+.text-second {
+  color: var(--second-color);
+}
+.font-sukar {
+  font-family: sukar;
+}
+#components {
+  margin-top: 120px;
+}
+.nav-link {
+  color: var(--second-color);
+  font-size: 1.2rem;
+  margin: 0 12px;
+}
+.nav-link:hover {
+  color: var(--main-color);
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.m-top {
+  margin-top: 120px;
+}
+
+.font-black{
+  color: var(--second-color);
+}
+.cta {
+  padding: 0.6rem 1.4rem;
+  text-decoration: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .cta {
+    padding: 0.6rem 2.8rem;
+  }
+}
+.btn-main {
+  background-color: var(--main-color);
+  color: white;
+}

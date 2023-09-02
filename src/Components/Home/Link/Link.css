@@ -1,0 +1,28 @@
+.link {
+  border-radius: 20px 70px 20px 70px;
+  -moz-border-radius: 20px 70px 20px 70px;
+  -webkit-border-radius: 10px 70px 10px 70px;
+  background: hsla(195, 21%, 18%, 1);
+
+  background: linear-gradient(
+    360deg,
+    hsla(195, 21%, 18%, 1) 0%,
+    hsla(224, 72%, 54%, 1) 90%
+  );
+
+  background: -moz-linear-gradient(
+    360deg,
+    hsla(195, 21%, 18%, 1) 0%,
+    hsla(224, 72%, 54%, 1) 90%
+  );
+
+  background: -webkit-linear-gradient(
+    360deg,
+    hsla(195, 21%, 18%, 1) 0%,
+    hsla(224, 72%, 54%, 1) 90%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#253439", endColorstr="#3663DE", GradientType=1 );
+}
+
+
