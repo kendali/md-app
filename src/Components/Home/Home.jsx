@@ -10,8 +10,8 @@ function Home() {
       <NavBar />
       <main>
         <Hero />
-        <Features />
         <Services />
+        <Features />
         <Link />
       </main>
     </div>

@@ -11,26 +11,7 @@ function Features() {
         </p>
       </div>
       <div className="features-body mt-md-5">
-        <div className="row bg-body-tertiary p-5 rounded-3 gap-4 justify-content-center align-content-center">
-          {/* <div className="col-md-4 p-5 rounded-4 bg-white">
-            <div className="feature-header">
-              <img src="https://ucarecdn.com/772484aa-5905-4f96-bbb4-eb49f4a8c1ae/undraw_design_tools_42tf.svg" 
-              alt="UI & UX"
-              className="img-fluid"
-              width={250}
-              />
-            </div>
-            <div className="feature-body">
-              <div className="feature-title text-center my-4 font-black">
-                <h3>UI & UX</h3>
-              </div>
-              <div className="feature-description text-center">
-                <p className="lead">
-                User interface design and user experience are essential in a web application because they make the final product easy to use and attract all categories
-                </p>
-              </div>
-            </div>
-          </div> */}
+        <div className="bg-body-tertiary d-flex flex-column flex-xl-row justify-content-between  p-5 rounded-3 gap-4 justify-content-center align-content-center">
           <Feature imgLink='https://ucarecdn.com/772484aa-5905-4f96-bbb4-eb49f4a8c1ae/undraw_design_tools_42tf.svg'
             imgAlt='UI & UX' title='UI & UX'
             description='User interface design and user experience are essential in a web application because they make the final product easy to use and attract all categories' />

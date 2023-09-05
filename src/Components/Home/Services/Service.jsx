@@ -1,17 +1,19 @@
-
-function Service({imgLink,imgAlt,title,description}) {
+import './Services.css'
+function Service({ imgLink, imgAlt, title, description }) {
     return (
         <>
-            <div className="service w-sm-75 mb-5">
-                <div className="icon mb-3">
-                    <img src={imgLink} alt={imgAlt} />
+            <div className="service w-lg-25 text-center shadow-lg px-3 py-5 mb-5 bg-white rounded-3 d-flex flex-column gap-4 justify-content-center">
+                <div className="service-header">
+                    <img width={90} src={imgLink} alt={imgAlt} className="img-fluid" />
                 </div>
-                <div className="header mb-3">
-                    <h5>{title}</h5>
+                <div className="service-body">
+                    <h4 className='font-black'>{title}</h4>
+                    <p className='lead text-center'>
+                        {description}
+                    </p>
                 </div>
-                <div className="description">
-                    <p className="lead">
-                        {description}                    </p>
+                <div className="service-footer flex-end">
+                    <a className='cta btn-main fw-semibold'>Learn more</a>
                 </div>
             </div>
         </>

@@ -2,7 +2,7 @@
 function Feature({imgLink,imgAlt,title,description,size}) {
   return (
     <>
-      <div className="col-lg-3 p-5 rounded-4 bg-white">
+      <div className=" p-5 rounded-4 bg-white">
             <div className="feature-header text-center">
               <img src={imgLink}
               alt={imgAlt}

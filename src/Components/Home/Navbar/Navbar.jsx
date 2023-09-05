@@ -3,6 +3,7 @@
 
 
 function NavBar() {
+
     return (
         <header className="container">
             <nav className="navbar navbar-expand-lg">
@@ -13,7 +14,7 @@ function NavBar() {
                     </button>
                     <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
                         <ul className="navbar-nav m-auto mb-2 mb-lg-0 ">
-                            <li className="nav-item">
+                        <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
@@ -27,7 +28,7 @@ function NavBar() {
                             </li>
                         </ul>
                         <div className="cta">
-                            <a href className="cta btn-main bounce-top ">Contact Me</a>
+                            <a href className="cta btn-main bounce-top ">Contact US</a>
                         </div>
                     </div>
                 </div>
