@@ -1,14 +1,12 @@
+import TextCenter from "../Global/TextCenter"
 import Feature from "./Feature"
 
 
 function Features() {
   return (
-    <div className="features container px-4 m-top p-5">
+    <div className="features container px-4 p-5">
       <div className="features-header text-center">
-        <h2 className="font-black">Weaving innovation, design, and code into the fabric of the internet</h2>
-        <p className="lead d-none d-lg-block">
-          Web development encompasses the creation and maintenance of websites and web applications, utilizing technologies like HTML, CSS, JavaScript, and server-side scripting to deliver interactive and engaging online experiences.
-        </p>
+        <TextCenter title='Features' />
       </div>
       <div className="features-body mt-md-5">
         <div className="bg-body-tertiary d-flex flex-column flex-xl-row justify-content-between  p-5 rounded-3 gap-4 justify-content-center align-content-center">

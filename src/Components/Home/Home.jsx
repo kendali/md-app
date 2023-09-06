@@ -4,6 +4,7 @@ import   './Home.css'
 import Features from "./Features/Features"
 import Services from "./Services/Services"
 import Link from "./Link/Link"
+import Contact from "./ContactForm/Contact"
 function Home() {
   return (
     <div id="home">
@@ -12,7 +13,8 @@ function Home() {
         <Hero />
         <Services />
         <Features />
-        <Link />
+        <Contact />
+        {/* <Link /> */}
       </main>
     </div>
   )

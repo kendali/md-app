@@ -1,3 +1,5 @@
+import TextCenter from '../Global/TextCenter'
+import Quote from './Quote/Quote'
 import Service from './Service'
 import './Services.css'
 import Tools from './Tools/Tools'
@@ -9,7 +11,7 @@ function Services() {
             </div>
             <div className="nos-services m-top">
                 <div className="services-header text-center">
-                    <h3 className='display-5 fw-semibold text-main'>Nos Services</h3>
+                    <TextCenter title='Nos Services' />
                 </div>
                 <div className="services-section m-top d-flex justify-content-center gap-5 align-items-center flex-wrap ">
                     <Service imgLink="https://ucarecdn.com/e35b4161-435b-4c4f-a48f-c33e9d49c95c/Untitled1.svg"
@@ -55,6 +57,7 @@ function Services() {
             <div className="tools-section m-top">
                 <Tools />
             </div>
+            <Quote />
         </div>
     )
 }

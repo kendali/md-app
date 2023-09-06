@@ -1,10 +1,11 @@
+import TextCenter from "../../Global/TextCenter"
 import Tool from "./Tool"
 
 function Tools() {
     return (
         <>
             <div className="tools-header">
-                <h4 className='display-4 fw-semibold text-main text-center'>Tools</h4>
+               <TextCenter title='Tools' />
             </div>
             <div className="tools-body p-5 d-flex justify-content-between gap-4 align-items-center flex-wrap">
                 <Tool imgLink="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"

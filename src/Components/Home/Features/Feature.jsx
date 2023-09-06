@@ -12,7 +12,7 @@ function Feature({imgLink,imgAlt,title,description,size}) {
             </div>
             <div className="feature-body">
               <div className="feature-title text-center my-4 font-black">
-                <h3>{title}</h3>
+                <h3 className="text-main fw-bold">{title}</h3>
               </div>
               <div className="feature-description text-center">
                 <p className="lead">
