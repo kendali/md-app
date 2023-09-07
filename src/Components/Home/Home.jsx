@@ -4,6 +4,8 @@ import   './Home.css'
 import Features from "./Features/Features"
 import Services from "./Services/Services"
 import Contact from "./ContactForm/Contact"
+import Link from './Link/Link'
+import Footer from "./Footer/Footer"
 function Home() {
   return (
     <div id="home">
@@ -13,6 +15,8 @@ function Home() {
         <Services />
         <Features />
         <Contact />
+        <Link />
+        <Footer />
       </main>
     </div>
   )

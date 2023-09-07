@@ -1,0 +1,14 @@
+footer{
+    
+    border-top-right-radius: 120px;
+    background-color: var(--second-color);
+}
+
+
+.nav{
+    display: block;
+}
+
+li > a{
+    text-decoration: none;
+}

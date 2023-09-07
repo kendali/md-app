@@ -4,7 +4,6 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  height: 600vh;
 }
 /* VARIABLES */
 :root {
@@ -54,6 +53,8 @@ body {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   cursor: pointer;
+  outline: none;
+  border: none;
 }
 @media (max-width: 768px) {
   .cta {

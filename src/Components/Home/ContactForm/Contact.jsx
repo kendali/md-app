@@ -13,12 +13,14 @@ function Contact() {
     const sendMail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_0v0fafl', 'template_f5zlc2q', e.target, 'IuyIuum3tjXJRmw_j')
-        setFormData({
-            fullName: '',
-            email: '',
-            phoneNumber: '',
-            request: ''
-        })
+        setTimeout(() => {
+            setFormData({
+                fullName: '',
+                email: '',
+                phoneNumber: '',
+                request: ''
+            })
+        }, 1500);
     }
 
     return (
@@ -68,7 +70,7 @@ function Contact() {
                                 name='message'></textarea>
                         </div>
                         <div className="form-group my-4">
-                            <button className="cta btn-main px-5 fw-bold" type='submit'>Send</button>
+                            <button className="cta btn-main px-5 fw-bold">Send</button>
                         </div>
                     </form>
                 </div>
