@@ -3,6 +3,18 @@
 
 
 function NavBar() {
+    const navList = [
+        { id: 0, navLink: 'Home' },
+        { id: 1, navLink: 'Services' },
+        { id: 2, navLink: 'Forum' },
+        { id: 3, navLink: 'Blog' },
+        { id: 4, navLink: 'About' }
+    ]
+    const nav = navList.map((list) => (
+        <li className="nav-item" key={list.id}>
+            <a className="nav-link" href="#">{list.navLink}</a>
+        </li>
+    ))
 
     return (
         <header className="container">
@@ -14,7 +26,7 @@ function NavBar() {
                     </button>
                     <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
                         <ul className="navbar-nav m-auto mb-2 mb-lg-0 ">
-                        <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
@@ -25,7 +37,8 @@ function NavBar() {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">About</a>
-                            </li>
+                            </li> */}
+                            {nav}
                         </ul>
                         <div className="cta">
                             <a href className="cta btn-main bounce-top ">Contact US</a>

@@ -23,15 +23,15 @@ const Footer = () => {
         <li key={page.id} className='nav-item mb-2'><a href="#" className="text-light">{page.pageName}</a></li>
     )
     const socialMediaLinks = [
-        {id:0,lien:'https://ucarecdn.com/2f6808d1-5815-4aea-9bbe-0914dee657f7/icons8facebook1.svg',title:'Facebook'},
-        {id:1,lien:'https://ucarecdn.com/2f6808d1-5815-4aea-9bbe-0914dee657f7/icons8facebook1.svg',title:'Twitter'},
-        {id:2,lien:'https://ucarecdn.com/2f6808d1-5815-4aea-9bbe-0914dee657f7/icons8facebook1.svg',title:'Instagram'},
-        {id:3,lien:'https://ucarecdn.com/2f6808d1-5815-4aea-9bbe-0914dee657f7/icons8facebook1.svg',title:'Youtube'}
+        {id:0,lien:'https://ucarecdn.com/2f6808d1-5815-4aea-9bbe-0914dee657f7/icons8facebook1.svg',title:'sm-icon icon-of-facebook'},
+        {id:1,lien:'https://ucarecdn.com/c972cf92-fdd7-4e09-bb0e-730773a0d617/icons8twitter1.svg',title:'sm-icon icon-of-twitter'},
+        {id:2,lien:'https://ucarecdn.com/6f66583b-0a99-4fe3-9300-16c788da84a8/icons8instagram.svg',title:'sm-icon icon-of-instagram'},
+        {id:3,lien:'https://ucarecdn.com/55a754ec-2e67-44b8-8084-3b468b95d26f/icons8youtube.svg',title:'sm-icon icon-of-youtube'}
     ]
     const socialMedia = socialMediaLinks.map((sm)=>(
         <li key={sm.id} className={`${sm.title} nav-item mb-2 `}>
             <a href="">
-            <img src={sm.lien} alt={sm.title} width={40} />
+                <img src={sm.lien} alt={sm.title} width={40} className={sm.title} />
             </a>
         </li>
     ))

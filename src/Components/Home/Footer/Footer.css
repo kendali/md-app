@@ -1,14 +1,21 @@
-footer{
-    
-    border-top-right-radius: 120px;
-    background-color: var(--second-color);
+footer {
+  border-top-right-radius: 120px;
+  background-color: var(--second-color);
 }
 
-
-.nav{
-    display: block;
+.nav {
+  display: block;
 }
 
-li > a{
-    text-decoration: none;
+li > a {
+  text-decoration: none;
+}
+
+.sm-icon {
+  transition: 0.5s;
+  padding: 3px;
+  border-radius: 50%;
+}
+.sm-icon:hover {
+  background-color: white;
 }
