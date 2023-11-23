@@ -26,18 +26,6 @@ function NavBar() {
                     </button>
                     <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
                         <ul className="navbar-nav m-auto mb-2 mb-lg-0 ">
-                            {/* <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Services</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Blog</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
-                            </li> */}
                             {nav}
                         </ul>
                         <div className="cta">
